@@ -1,13 +1,44 @@
 html,
-body {
-  padding: 0;
+
+.container {
+  /* max-width: 36rem; */
+  /* padding: 0 1rem; */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  line-height: 1.6;
-  font-size: 18px;
 }
 
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width:100%;
+  background:rgb(47, 41, 48)
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  line-height: 1.1;
+  margin: .5rem 1rem .5rem auto;
+}
+
+body {
+  margin: 0;
+  max-width: 100vw;
+  background: rgb(30, 26, 26);
+  display:flex;
+  min-height: 100%;
+  flex-direction:column;
+  color:white;
+}
+/* 
 * {
   box-sizing: border-box;
 }
@@ -24,4 +55,5 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
-}
+} */
+

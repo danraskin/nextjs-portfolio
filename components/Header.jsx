@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from '@/styles/utils.module.css';
+
+import Nav from '@/components/Nav';
 import utilStyles from '../styles/utils.module.css';
 
 
@@ -8,18 +9,11 @@ const name = 'Dan Raskin';
 
 export default function Header({home}) {
   return (
-    <div className={styles.header}>
+    <div className='header'>
     {home ? (
       <>
-        <Image
-          priority
-          src="/images/profile.jpeg"
-          className={utilStyles.borderCircle}
-          height={144}
-          width={144}
-          alt=""
-        />
         <h1 className={utilStyles.heading2Xl}>{name}</h1>
+        <Nav auth />
       </>
     ) : (
       <>
