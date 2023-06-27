@@ -7,7 +7,9 @@ const metadata = {
 export default function RootLayout ({children}) {
     return (
         <html lang="en">
-            <head />
+          <head>
+            <title>Dan Raskin Portfolio</title>
+          </head>
             <body>
                 {children}
             </body>
