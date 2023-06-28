@@ -7,7 +7,7 @@ import utilStyles from '../styles/utils.module.css';
 
 const name = 'Dan Raskin';
 
-export default function Header({home}) {
+const Header = ({home}) => {
   return (
     <div className='header'>
     {home ? (
@@ -36,4 +36,6 @@ export default function Header({home}) {
     )}
     </div>
   );
-}
+};
+
+export default Header;

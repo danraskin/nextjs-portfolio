@@ -1,32 +1,60 @@
 html,
 
 .container {
-  /* max-width: 36rem; */
-  /* padding: 0 1rem; */
-  margin: 0;
-}
-
-.flex-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 0;
+}
+
+.flex-container {
+
+  /* background:red; */
 }
 
 .header {
   display: flex;
+  position:fixed;
+  top: 0;
+  right:0;
+  left:0;
   flex-direction: row;
   align-items: center;
-  width:100%;
+  background:rgb(47, 41, 48);
+  border-bottom:rgb(238, 210, 210) solid 4px;
+}
+
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right:0;
+  left:0;
+  flex-direction: row;
+  align-items: center;
   background:rgb(47, 41, 48)
 }
 
 .nav {
   display: flex;
-  flex-direction: column;
   font-size: 1rem;
   line-height: 1.1;
-  margin: .5rem 1rem .5rem auto;
+  /* margin: .5rem 1rem .5rem 1rem; */
+}
+
+.card {
+  background: rgb(238, 210, 210);
+  color:black;
+  display: flex;
+  flex-direction: column;
+  min-height: 20px;
+  min-width: 50px;
+}
+
+.projects {
+  position:relative;
+  margin-top: 1rem;
 }
 
 body {
