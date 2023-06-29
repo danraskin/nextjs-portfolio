@@ -14,6 +14,7 @@ const Header = ({home}) => {
       <>
         <h1 className={utilStyles.heading2Xl}>{name}</h1>
         <Nav auth />
+        <div className='right'/>
       </>
     ) : (
       <>

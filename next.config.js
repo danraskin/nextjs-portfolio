@@ -7,7 +7,7 @@ const redirects = async () => {
   return [
     {
       source: '/',
-      destination: '/projects',
+      destination: '/',
       permanent: true,
     },
   ]
