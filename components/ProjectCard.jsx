@@ -1,10 +1,10 @@
 import Card from '@/components/Card';
 
-const ProjectCard = () => {
+const ProjectCard = ({project}) => {
   return (
     <Card>
-      <div>Image</div>
-      <div>description</div>
+      <div>{project.title}</div>
+      <div>text</div>
       <div>preview</div>
     </Card>
   );
