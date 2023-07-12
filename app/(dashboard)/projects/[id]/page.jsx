@@ -1,11 +1,13 @@
 import ProjectCard from '@/components/ProjectCard';
-import { getAllProjectsIds, getProjectsData } from '@/lib/projects';
+import { getContentData } from '@/lib/projects';
 
-export default function ProjectPage({params}) {
+export default async function ProjectPage({params}) {
+  const project = await getContentData(params.id, 'projects');
+  console.log(project)
   return (
     <div>
-      {/* <ProjectCard params={params}/> */}
-      <div>in project</div>
+      <div>{project.title}</div>
+      <div dangerouslySetInnerHTML={{ __html: project.contentHtml }} />
     </div>
   );
 }

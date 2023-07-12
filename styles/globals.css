@@ -57,8 +57,10 @@ html,
   color:black;
   display: flex;
   flex-direction: column;
-  min-height: 20px;
-  min-width: 50px;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  min-width: 500px;
 }
 
 .projects {
