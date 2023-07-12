@@ -2,8 +2,9 @@ import ProjectCard from '@/components/ProjectCard';
 import utilStyles from '@/styles/utils.module.css';
 import { getSortedProjectsData } from '@/lib/projects';
 
-export default function Projects() {
-  const projects = getSortedProjectsData();
+export default async function Projects() {
+  const projects = await getSortedProjectsData();
+  console.log('in Projects component', projects);
   return (
     <div className='flex-container'>
       <h2 className={utilStyles.headingXl}>Projects</h2>
