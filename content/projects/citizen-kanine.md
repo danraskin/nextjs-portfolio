@@ -3,7 +3,7 @@ title: 'Citizen Kanine App'
 index: '1'
 description: 'Custom React App built for a local dog-walking company.'
 ---
-
+<div class='about'>
 Citizen Kanine App is a custom React App built for the dog-walking company, [Citizen kanine](https://thecitizenkanine.com/).
 
 ## Summary
@@ -37,25 +37,25 @@ You will be prompted for authorization. submit the following:
 
 The mobile views can be accessed your via your desktop by changing the screen size in your browser's Developer Tools, but it is designed be viewed on a mobile device! Logging in as admin will take you the mobile home view:
 
-<!-- <img src="public/Images/image0.png" alt="mobile home screen" width="200"/> -->
+<Image src="/images/image0.png" alt="mobile home screen" width="200"/>
 
 Select 'Routes,' scroll to the bottom, and select 'load balancing.'
 
 *NOTE*: If you are checking this demo app on a Saturday or a Sunday, no dogs will appear in the routes view, because Citizen Kanine operates M-F, and no dogs are scheduled for weekend walks.
 
-<!-- <img src="public/Images/image1.png" alt="mobile home screen" width="200"/> -->
+<Image src="/images/image1.png" alt="mobile home screen" width="200"/>
 
 Turn the screen sideways as prompted to view the load balancing screen. Select the "edit" button on the top-right and explore the drag and drop function!
 
-<!-- <img src="public/Images/image2.png" alt="mobile home screen" width="400"/> -->
+<Image src="/images/image2.png" alt="mobile home screen" width="400"/>
 
 Return the the "Routes" screen via the bottom nav-bar, and navigate to a route of your choice. Select the 'Map' button.
 
-<!-- <img src="public/Images/image3.png" alt="mobile home screen" width="200"/> -->
+<Image src="/images/image3.png" alt="mobile home screen" width="200"/>
 
 Select an icon to open up the 'check-in' modal. This is how pack leaders check in dogs. (They can also do this in the previous 'Route view').
 
-<!-- <img src="public/Images/image4.png" alt="mobile home screen" width="200"/> -->
+<Image src="/images/image4.png" alt="mobile home screen" width="200"/>
 
 Each dog must be identified as 'checked-in', 'no-show', or 'cancelled' individually. After checking in all dogs, click 'check-in all dogs.' This does not affect dog check-in in status, but it does change the icon color so that pack leaders can keep track of their pick-ups! Feel free to check in dogs. This data will be stored and viewable as tabulated client history in the Admin Dashboard 'Invoice Tool.'
 
@@ -64,20 +64,21 @@ Each dog must be identified as 'checked-in', 'no-show', or 'cancelled' individua
 Logging in as admin will take you to the admin dashboard.
 You can leave to-do notes. Notes written by employees in the mobile view also appear here. A future update is an option to send notes to employees via the dashboard.
 
-<!-- <img src="public/Images/adminview1.png" alt="mobile home screen" width="600"/> -->
+<Image src='/images/adminview1.png' width='600'/>
 
 Click the navbar icon on the top-left to see the full nav menu.
 
-<!-- <img src="public/Images/adminview2.png" alt="mobile home screen" width="600"/> -->
+<Image src='/images/adminview2.png' width='600'/>
 
 Select 'Clients' to view client list.
 
-<!-- <img src="public/Images/adminview3.png" alt="mobile home screen" width="600"/> -->
+<Image src='/images/adminview3.png' width='600'/>
 
 Clients are searchable by client and dog name. Select a client to view client details. 'Connect to Quickbooks' establishes authorization and authentication with Quickbooks using Oauth2. Access and refresh tokens are stored in browser. 'Quickbooks Sync' button makes API call to Quickbooks to recieve full list of company's clients. Any changes to client data made in Quickboooks is updated to app.
 
 Click navbar icon and select 'Invoice Tool' to view and create invoices.
 
-<!-- <img src="public/Images/adminview4.png" alt="mobile home screen" width="600"/> -->
+<Image src='/images/adminview4.png' width='600'/>
 
 Client history is tabulated by client, service provided, and month. History is searchable by client. 'Export CSV' button exports a selected client history formatted to upload to Quickbooks. This feature was developed in the app prototype. The 'Sync QB' button directly creates Quickbooks Invoices through Quickbook API.
+</div>

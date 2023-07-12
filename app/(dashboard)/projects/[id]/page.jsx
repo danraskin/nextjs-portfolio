@@ -1,4 +1,5 @@
 import { getContentData } from '@/lib/projects';
+import Image from 'next/image';
 
 export default async function ProjectPage({params}) {
   const project = await getContentData( 'projects', params.id );
