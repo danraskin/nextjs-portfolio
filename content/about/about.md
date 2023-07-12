@@ -1,19 +1,25 @@
-Hi! On this corner of the internet, I'm Full-Stack Software Engineer. I've been doing this 2022, love doing it, and am hoping to make this into a career. Above all, I'm looking for great collaborators, interesting challenges, and projects with real impacts.
+---
+title: 'About Me'
+---
 
-I also record and perform electronic music, co-host and produce a literature and history podcast. Less frequently, I write fiction and produce visual art.
+### Hi! My name is Dan Raskin. Here's the professional section of my about page:
+
+I am Full-Stack Software Engineer with experience designing, building, and supporting custom business applications. In addition to software product development, I am a skilled project manager, strong communicator across teams and audieces, and creative problem-solver. I'm looking for great collaborators, interesting challenges, and projects with real impacts.
 
 Languages
 - Javascript
 - Python
-- PostgreSQL
 
-Technologies
+Technologies and Frameworks
 - Node.js
 - React
-- Postgres
+- PostgreSQL
+- OAuth2.0
 - Next.js
 - Express.js
 - Heroku
 - Git
 
-~ Resume ~
+### Here's the personality section:
+
+For a sampling of my creative pursuits, I record and perform electronic music, and co-host a literature and history [podcast](https://unseenbookclub.buzzsprout.com/). Less frequently, I write fiction and produce visual art. In my estimation, these endeavors tend rank low- to- medium on the technology scale but high- to- very- high on the interesting, collaborative challenges scale.

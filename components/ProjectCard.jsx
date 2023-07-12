@@ -6,6 +6,7 @@ const ProjectCard = ({project}) => {
     <Link href={`/projects/${project.id}`} style={{textDecoration: 'none'}}>
       <Card>
         <div>{project.title}</div>
+        <div>{project.description}</div>
         <div dangerouslySetInnerHTML={{ __html: project.excerpt }} />
       </Card>
     

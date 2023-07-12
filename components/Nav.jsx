@@ -6,7 +6,8 @@ const Nav = () => {
     <div className='nav'>
         <Link href='/about'>About</Link>
         <Link href='/projects'>Projects</Link>
-        <Link href='/blog'>Blog</Link>  
+        <Link href='/blog'>Blog</Link>
+        <a download href={'Dan Raskin Resume.pdf'}> Resume </a>
     </div>
   )
 };

@@ -17,8 +17,14 @@ html,
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 0;
+  margin: auto 20%;
   /* background:red; */
+}
+
+.about {
+  display:flex !important;
+  color: red;
+  /* margin: auto 20%; */
 }
 
 .header {
@@ -59,6 +65,7 @@ html,
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   height: 80px;
   min-width: 500px;
 }
