@@ -52,6 +52,7 @@ html,
 }
 
 .card {
+  margin: 30% 0;
   background: rgb(238, 210, 210);
   color:black;
   display: flex;
