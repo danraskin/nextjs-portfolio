@@ -6,7 +6,6 @@ export default async function ProjectPage({params}) {
   console.log(project)
   return (
     <div className='flex-container'>
-      <div>{project.title}</div>
       <div dangerouslySetInnerHTML={{ __html: project.contentHtml }} />
     </div>
   );

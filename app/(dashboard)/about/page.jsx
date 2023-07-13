@@ -6,7 +6,6 @@ export default async function About() {
   console.log(content);
   return (
     <div className='flex-container about'>
-      <div>about</div>
       <div dangerouslySetInnerHTML={{ __html: content.contentHtml }} />
     </div>
   );

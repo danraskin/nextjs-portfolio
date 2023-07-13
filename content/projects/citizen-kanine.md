@@ -1,16 +1,16 @@
 ---
 title: 'Citizen Kanine App'
 index: '1'
-description: 'Custom React App built for a local dog-walking company.'
+description: "This React app is a custom-built production business tool that integrates scheduling, invoicing, record-keeping, and communications functions for a Minneapolis-based dog-walking company."
 ---
 <div class='about'>
-Citizen Kanine App is a custom React App built for the dog-walking company, [Citizen kanine](https://thecitizenkanine.com/).
 
+# Citizen Kanine App
 ## Summary
 
-[Citizen Kanine](https://thecitizenkanine.com/) is a dog-walking business based in Minneapolis. Each morning, 'Pack Leaders' pick up clients' dogs in along designated routes vans. On a typical day, the business walks 36+ dogs in small groups around Lake Harriet.
+[Citizen Kanine](https://thecitizenkanine.com/) is a dog-walking business based in Minneapolis. Each morning, 'Pack Leaders' pick up clients' dogs along designated van routes. On a typical day, the business walks 36+ dogs in small groups around Lake Harriet.
  
-This custom React web-application integrates the company's scheduling, invoicing, record-keeping, and communications functions. The app contains two separate workflows: an admin dashboard and a mobile view for employees. The admin portal provides a centralized location for our client to manage employee schedules, client information and scheduling and invoicing. The mobile view allows employees to manage the distribution of dogs along pick-up routes on a daily basis, as well efficiently checking in which dogs were walked each day.
+This custom React web-application is a production business tool that integrates the company's scheduling, invoicing, record-keeping, and communications functions. The app contains two separate workflows: an admin dashboard and a mobile view for employees. The admin portal provides a centralized location for the company to manage employee schedules, client information and scheduling and invoicing. The mobile view allows employees to manage the distribution of dogs along pick-up routes on a daily basis, as well efficiently checking in which dogs were walked each day.
 
 Key Features:
 
@@ -20,12 +20,15 @@ Key Features:
 - App creates formatted Quickbook invoices at the click of a button
 - Admin can view client history and submit changes to client schedules
 
-Citizen Kanine currently relies on the production app for its daily operations. Its completed version was developed by myself ([Dan Raskin](https://github.com/danraskin)) and [Sam Freeman](https://github.com/sam-c-freeman). I am continuing to develop its features in collaboration with the company and its employees. The original prototype was built in a three-week sprint with a team of four other developers: [Sarah Preston](https://github.com/seprest1), [Blake Smith](https://github.com/blakesmithmn), [Yanira Hagstrom](https://github.com/YaniraHagstrom) and [Sam Freeman](https://github.com/sam-c-freeman) as a part of [Prime Digital Academy](www.primeacademy.io).
+Citizen Kanine currently relies on the production app for its daily operations. Its completed version was developed by myself ([Dan Raskin](https://github.com/danraskin)) and [Sam Freeman](https://github.com/sam-c-freeman). I am continuing to develop its features in collaboration with the company and its employees. The original prototype was built in a three-week sprint with a team of four other developers: [Sarah Preston](https://github.com/seprest1), [Blake Smith](https://github.com/blakesmithmn), [Yanira Hagstrom](https://github.com/YaniraHagstrom) and [Sam Freeman](https://github.com/sam-c-freeman).
 
-Check out the repo for the production version of the app [here](https://github.com/citizenkanineapp/citizenkanineapp).
+- Check out the repo for the production version of the app [here](https://github.com/citizenkanineapp/citizenkanineapp).
+  
+<hr />
 
-### How to check out the Citizen Kanine App
-[Click here](http://citizen-kanine-demo.herokuapp.com) to interact with a fully functional demo version of the Citizen Kanine App.
+### Check out the Citizen Kanine App
+
+- [Click here](http://citizen-kanine-demo.herokuapp.com) to interact with a fully functional demo version of the Citizen Kanine App.
 
 You will be prompted for authorization. submit the following:
 
