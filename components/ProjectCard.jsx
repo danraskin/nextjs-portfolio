@@ -1,13 +1,14 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import Card from '@/components/Card';
 
 const ProjectCard = ({project}) => {
   return (
     <Link href={`/projects/${project.id}`} style={{textDecoration: 'none'}}>
-      <Card>
+      <Card >
         <div>{project.title}</div>
-        <div>{project.description}</div>
-        <div dangerouslySetInnerHTML={{ __html: project.excerpt }} />
+        <div class='card-content' dangerouslySetInnerHTML={{ __html: project.image}}/>
+        <div class='card-content'>{project.description}</div>
       </Card>
     
     </Link>

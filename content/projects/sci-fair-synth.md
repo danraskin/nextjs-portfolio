@@ -1,6 +1,7 @@
 ---
 title: 'Science Fair Synth'
 index: '2'
+image: '<Image src="/images/demopic2.png" height="150"/>'
 description: 'Light-to-Sound browser synthesizer//IoT art project. Users control a simple browser interface to convert RGB color data into soothing and beautiful electronic music.'
 ---
 
@@ -11,6 +12,7 @@ description: 'Light-to-Sound browser synthesizer//IoT art project. Users control
 First presentated Dec 18, 2022 @ Cyanotopia, Minneapolis, MN
 
 - Check out the demo [here](https://sci-fair-scum.herokuapp.com)
+- [Project Repo](https://github.com/danraskin/sci-fair-scum)
 
 Users navigate a simple browser interface to convert RGB color data into electronic music. A light sensor ([Adafruit Flora Color Sensor](https://www.adafruit.com/product/1356)) attached to a Raspberry Pi sends RGB color data to the cloud. Node.js server utilizes Server-Sent Events to forward RGB color data to clients. Mobile users control the browser synthesizer by selecting constantly changing color data, which is converted into sound using an experimental web audio library [i dropped my phone the screen cracked](https://github.com/billorcutt/i_dropped_my_phone_the_screen_cracked) by developer Bill Orcutt.
 

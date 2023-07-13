@@ -1,11 +1,15 @@
 ---
 title: 'Citizen Kanine App'
 index: '1'
+image: '<Image src="/images/adminview4.png" height="150"/>'
 description: "This React app is a custom-built production business tool that integrates scheduling, invoicing, record-keeping, and communications functions for a Minneapolis-based dog-walking company."
 ---
 <div class='about'>
 
 # Citizen Kanine App
+
+- [Project Repo](https://github.com/citizenkanineapp/citizenkanineapp) for the production app
+
 ## Summary
 
 [Citizen Kanine](https://thecitizenkanine.com/) is a dog-walking business based in Minneapolis. Each morning, 'Pack Leaders' pick up clients' dogs along designated van routes. On a typical day, the business walks 36+ dogs in small groups around Lake Harriet.
@@ -21,8 +25,6 @@ Key Features:
 - Admin can view client history and submit changes to client schedules
 
 Citizen Kanine currently relies on the production app for its daily operations. Its completed version was developed by myself ([Dan Raskin](https://github.com/danraskin)) and [Sam Freeman](https://github.com/sam-c-freeman). I am continuing to develop its features in collaboration with the company and its employees. The original prototype was built in a three-week sprint with a team of four other developers: [Sarah Preston](https://github.com/seprest1), [Blake Smith](https://github.com/blakesmithmn), [Yanira Hagstrom](https://github.com/YaniraHagstrom) and [Sam Freeman](https://github.com/sam-c-freeman).
-
-- Check out the repo for the production version of the app [here](https://github.com/citizenkanineapp/citizenkanineapp).
   
 <hr />
 

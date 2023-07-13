@@ -49,17 +49,21 @@ html,
 }
 
 .card {
-  margin: 10% 20%;
+  margin: 0 5rem 3rem 5rem;
   background: rgb(47, 41, 48);
   color:white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  height: 250px;
+  height: 25rem;
   border-radius: 1rem;
   border:rgb(136, 134, 134) solid 4px;
+}
+
+.card-content {
+  text-align: center;
+  margin: 2rem 0.5rem 0 0.5rem;
 }
 
 .projects {
