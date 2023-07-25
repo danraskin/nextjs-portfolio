@@ -1,4 +1,13 @@
-html,
+html {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+}
+
+body {
+  margin: 0;
+  background: rgb(11,13,14);
+  color:white;
+  width:100%;
+}
 
 .right {
   flex: 1;
@@ -10,7 +19,7 @@ html,
   justify-content: center;
   flex-direction: column;
   margin: auto 20rem 5rem;
-  /* background:red; */
+
 }
 
 .link {
@@ -32,14 +41,14 @@ html,
   flex-direction: row;
   align-items: center;
   justify-content:center;
-  width:100vw;
+  width:100%;
   background:rgb(47, 41, 48);
   border-bottom:rgb(136, 134, 134) solid 4px;
 }
 
 .footer {
   display: flex;
-  width: 100vw;
+  width: 100%;
   bottom: 0;
   right:0;
   left:0;
@@ -50,6 +59,7 @@ html,
   border-top: rgb(136, 134, 134) solid 4px;
   line-height: 2rem;
 }
+
 
 .footnav {
   width: 100px;
@@ -64,7 +74,6 @@ html,
   font-size: 1rem;
   line-height: 1.1;
   justify-content: space-between;
-  /* margin: .5rem 1rem .5rem 1rem; */
 }
 
 .card {
@@ -89,7 +98,6 @@ html,
 .date {
   font-size: .75rem;
   margin: .5rem auto -.5rem auto;
-
 }
 
 .projects {
@@ -97,37 +105,47 @@ html,
   margin-top: 1rem;
 }
 
-body {
-  margin: 0;
-  max-width: 100vw;
-  background: rgb(11,13,14);
-  display:flex;
-  min-height: 100%;
-  flex-direction:column;
-  color:white;
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
-}
-
-@media (max-width:650px){
-
-  .footer, .header {
-    width: 175vw;
-  }
-  .nav {
-    width: 70vw;
-  }
-  .content {
-    font-size:1rem;
-    margin: none;
-    border: none;
-    padding: 0 0 0 0;
-    width: 90;
-
-  }
+@media screen and (max-width: 667px) {
   .flex-container {
-    margin: 0.1rem 0.1rem 10rem 0.1rem;
-    width:100vmax;
+    margin: 0.5rem; /* Adjust the margin to center the content on mobile */
+  }
+
+  .content {
+    border: none; /* Remove left and right borders on mobile */
+    margin-top: 2rem; /* Reduce top margin for smaller screens */
+    padding: 0 1rem; /* Reduce horizontal padding for mobile */
+    max-width: 90%;
+  }
+
+  .header,
+  .footer {
+    width: 100%; /* Make the header and footer span the entire width on mobile */
+  }
+
+  .header {
+    /* justify-content: space-between; */
+  }
+  .right {
+    display:none;
+  }
+  .card {
+    margin: 2rem auto;
+    width: 90% /* Center the card on mobile with small margins */
+  }
+
+  .card-content {
+    margin: 1.5rem 0.5rem 0rem; /* Adjust margins for smaller screens */
+  }
+
+  .nav {
+    width: 100px;
+    flex-direction: column;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  img {
+    max-width: 350px;
   }
 
 }
-
