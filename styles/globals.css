@@ -122,9 +122,6 @@ body {
     width: 100%; /* Make the header and footer span the entire width on mobile */
   }
 
-  .header {
-    /* justify-content: space-between; */
-  }
   .right {
     display:none;
   }
