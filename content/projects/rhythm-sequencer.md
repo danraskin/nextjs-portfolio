@@ -1,8 +1,9 @@
 ---
 title: 'React Drum Machine'
-index: 3
+index: '3'
 image: '<Image src="/images/rhythm-sequencer.png" height="150" />'
 description: 'A full-stack, sample-based step sequencer built using React and Tone.js.'
+date: 'October, 2022'
 ---
 
 # React/Tone.js Drum Machine

@@ -3,6 +3,7 @@ title: 'Science Fair Synth'
 index: '2'
 image: '<Image src="/images/demopic2.png" height="150"/>'
 description: 'Light-to-Sound browser synthesizer//IoT art project. Users control a simple browser interface to convert RGB color data into soothing and beautiful electronic music.'
+date: 'December, 2022'
 ---
 
 # Interactive "Light-to-Sound" Web Audio Synth

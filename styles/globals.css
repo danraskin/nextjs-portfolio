@@ -32,14 +32,14 @@ html,
   flex-direction: row;
   align-items: center;
   justify-content:center;
-  width:100%;
+  width:100vw;
   background:rgb(47, 41, 48);
   border-bottom:rgb(136, 134, 134) solid 4px;
 }
 
 .footer {
   display: flex;
-  /* position: fixed; */
+  width: 100vw;
   bottom: 0;
   right:0;
   left:0;
@@ -83,7 +83,13 @@ html,
 
 .card-content {
   text-align: center;
-  margin: 2rem 0.5rem 0 0.5rem;
+  margin: 1.5rem .5rem .5rem .5rem;
+}
+
+.date {
+  font-size: .75rem;
+  margin: .5rem auto -.5rem auto;
+
 }
 
 .projects {
@@ -101,22 +107,27 @@ body {
   color:white;
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
-/* 
-* {
-  box-sizing: border-box;
-}
 
-a {
-  color: #0070f3;
-  text-decoration: none;
-}
+@media (max-width:650px){
 
-a:hover {
-  text-decoration: underline;
-}
+  .footer, .header {
+    width: 175vw;
+  }
+  .nav {
+    width: 70vw;
+  }
+  .content {
+    font-size:1rem;
+    margin: none;
+    border: none;
+    padding: 0 0 0 0;
+    width: 90;
 
-img {
-  max-width: 100%;
-  display: block;
-} */
+  }
+  .flex-container {
+    margin: 0.1rem 0.1rem 10rem 0.1rem;
+    width:100vmax;
+  }
+
+}
 

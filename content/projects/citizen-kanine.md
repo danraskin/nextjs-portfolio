@@ -2,6 +2,8 @@
 title: 'Citizen Kanine App'
 index: '1'
 image: '<Image src="/images/adminview4.png" height="150"/>'
+date: 'February, 2023'
+status: 'continuing development'
 description: "This React app is a custom-built production business tool that integrates scheduling, invoicing, record-keeping, and communications functions for a Minneapolis-based dog-walking company."
 ---
 <div class='about'>
@@ -9,6 +11,7 @@ description: "This React app is a custom-built production business tool that int
 # Citizen Kanine App
 
 - <a class='link' href='https://github.com/citizenkanineapp/citizenkanineapp'>Project Repo</a> for the production app
+- In continuous development
 
 ## Summary
 
