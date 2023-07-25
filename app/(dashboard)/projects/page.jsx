@@ -4,7 +4,7 @@ import { getSortedProjectsData } from '@/lib/projects';
 
 export default async function Projects() {
   const projects = await getSortedProjectsData();
-  console.log('in Projects component', projects);
+  // console.log('in Projects component', projects);
   return (
     <div className='flex-container'>
       <h2 className={utilStyles.headingXl}>Projects</h2>

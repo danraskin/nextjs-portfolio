@@ -9,13 +9,22 @@ html,
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: auto 20%;
+  margin: auto 20rem 5rem;
   /* background:red; */
 }
 
-.about {
+.link {
+  color: rgb(188, 147, 229);
+  text-decoration: none;
+}
+
+.content {
   font-size:1.2rem;
-  /* margin: auto 20%; */
+  max-width:600px;
+  padding:0 5rem;
+  margin-top: 5rem;
+  border-right: rgb(136, 134, 134) solid 4px;
+  border-left: rgb(136, 134, 134) solid 4px;
 }
 
 .header {
@@ -30,13 +39,23 @@ html,
 
 .footer {
   display: flex;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   right:0;
   left:0;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  background:rgb(47, 41, 48)
+  justify-content:center;
+  background:rgb(47, 41, 48);
+  border-top: rgb(136, 134, 134) solid 4px;
+  line-height: 2rem;
+}
+
+.footnav {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .nav {
@@ -57,6 +76,7 @@ html,
   align-items: center;
   justify-content: center;
   height: 25rem;
+  width:30rem;
   border-radius: 1rem;
   border:rgb(136, 134, 134) solid 4px;
 }

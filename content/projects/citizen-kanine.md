@@ -8,11 +8,11 @@ description: "This React app is a custom-built production business tool that int
 
 # Citizen Kanine App
 
-- [Project Repo](https://github.com/citizenkanineapp/citizenkanineapp) for the production app
+- <a class='link' href='https://github.com/citizenkanineapp/citizenkanineapp'>Project Repo</a> for the production app
 
 ## Summary
 
-[Citizen Kanine](https://thecitizenkanine.com/) is a dog-walking business based in Minneapolis. Each morning, 'Pack Leaders' pick up clients' dogs along designated van routes. On a typical day, the business walks 36+ dogs in small groups around Lake Harriet.
+<a class='link' href='https://thecitizenkanine.com/'>Citizen Kanine</a> is a dog-walking business based in Minneapolis. Each morning, 'Pack Leaders' pick up clients' dogs along designated van routes. On a typical day, the business walks 36+ dogs in small groups around Lake Harriet.
  
 This custom React web-application is a production business tool that integrates the company's scheduling, invoicing, record-keeping, and communications functions. The app contains two separate workflows: an admin dashboard and a mobile view for employees. The admin portal provides a centralized location for the company to manage employee schedules, client information and scheduling and invoicing. The mobile view allows employees to manage the distribution of dogs along pick-up routes on a daily basis, as well efficiently checking in which dogs were walked each day.
 
@@ -24,13 +24,13 @@ Key Features:
 - App creates formatted Quickbook invoices at the click of a button
 - Admin can view client history and submit changes to client schedules
 
-Citizen Kanine currently relies on the production app for its daily operations. Its completed version was developed by myself ([Dan Raskin](https://github.com/danraskin)) and [Sam Freeman](https://github.com/sam-c-freeman). I am continuing to develop its features in collaboration with the company and its employees. The original prototype was built in a three-week sprint with a team of four other developers: [Sarah Preston](https://github.com/seprest1), [Blake Smith](https://github.com/blakesmithmn), [Yanira Hagstrom](https://github.com/YaniraHagstrom) and [Sam Freeman](https://github.com/sam-c-freeman).
+Citizen Kanine currently relies on the production app for its daily operations. Its completed version was developed by myself (<a class='link' href='https://github.com/danraskin'>Dan Raskin</a>) and <a class='link' href='https://github.com/sam-c-freeman'>Sam Freeman</a>. I am continuing to develop its features in collaboration with the company and its employees. The original prototype was built in a three-week sprint with a team of four other developers: <a class='link' href='https://github.com/seprest1'>Sarah Preston</a>, <a class='link' href='https://github.com/blakesmithmn'>Blake Smith</a>, <a class='link' href='https://github.com/YaniraHagstrom'>Yanira Hagstrom</a> and <a class='link' href='https://github.com/sam-c-freeman'>Sam Freeman</a>.
   
 <hr />
 
 ### Check out the Citizen Kanine App
 
-- [Click here](http://citizen-kanine-demo.herokuapp.com) to interact with a fully functional demo version of the Citizen Kanine App.
+- <a class='link' href='https://citizen-kanine-demo.herokuapp.com'>Click Here</a> to interact with a fully functional demo version of the Citizen Kanine App.
 
 You will be prompted for authorization. submit the following:
 

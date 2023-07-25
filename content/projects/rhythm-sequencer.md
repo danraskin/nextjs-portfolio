@@ -7,7 +7,7 @@ description: 'A full-stack, sample-based step sequencer built using React and To
 
 # React/Tone.js Drum Machine
 
-- [Project Repo](https://github.com/danraskin/rhythm-sequencer-solo-project/tree/main)
+- <a class='link' href='https://github.com/danraskin/rhythm-sequencer-solo-project/tree/main'>Project Repo</a>
 
 A full-stack, sample-based step sequencer built using React and Tone.js. I built this in a 2-week sprint. The sequencer integrates Tone.js web audio libarary into a react-redux-saga/node-postgreSQL. 
 
@@ -21,7 +21,7 @@ A full-stack, sample-based step sequencer built using React and Tone.js. I built
 
 ## Using the Sequencer
 
-Check it out [here](https://rhythm-sequencer-solo-project.herokuapp.com)!
+Check it out <a class='link' href='https://rhythm-sequencer-solo-project.herokuapp.com'>here</a>!
 
 Any user can access the full functionality of the sequencer. To save a pattern, they must login or register an account. Once logged in, users can save, access, edit or delete patterns. Database stores sequence length, step status, pattern name, and most recently selected drumKit. BPM is automatically reset to 120 when navigating to either a new or saved pattern from any page.
 
