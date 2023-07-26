@@ -9,6 +9,7 @@ I am Full-Stack Software Engineer with experience designing, building, and suppo
 ### Languages
 - <Image src="/images/svg/javascript.svg" width='25' height='25'/> Javascript
 - <Image src="/images/svg/python-icon.svg" width='25' height='25'/> Python
+- <Image src="/images/svg/bash-icon.svg.png" width='25' height='25'/> Bash
 
 ### Technologies and Frameworks
 - <Image src="/images/svg/nodejs-icon.svg" width='25' height='25'/> Node.js
