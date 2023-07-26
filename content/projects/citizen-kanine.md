@@ -57,7 +57,7 @@ Turn the screen sideways as prompted to view the load balancing screen. Select t
 
 <Image src="/images/image2.png" alt="mobile home screen" width="400"/>
 
-Return the the "Routes" screen via the bottom nav-bar, and navigate to a route of your choice. Select the 'Map' button.
+Return to the "Routes" screen via the bottom nav-bar, and navigate to a route of your choice. Select the 'Map' button.
 
 <Image src="/images/image3.png" alt="mobile home screen" width="200"/>
 
