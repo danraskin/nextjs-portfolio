@@ -14,6 +14,7 @@ I am Full-Stack Software Engineer with experience designing, building, and suppo
 - <Image src="/images/svg/nodejs-icon.svg" width='25' height='25'/> Node.js
 - <Image src="/images/svg/reactjs-icon.svg" width='25' height='25'/> React
 - <Image src="/images/svg/postgresql-vertical.svg" width='25' height='25'/> PostgreSQL
+- <Image src="/images/svg/mui-icon.png" width='25' height='25'/> Material UI
 - <Image src="/images/svg/oauth.svg" width='25' height='25'/> OAuth2.0
 - <Image src="/images/svg/nextjs.svg" width='25' height='25'/> Next.js
 - <Image src="/images/svg/expressjs-icon.svg" width='25' height='25'/> Express.js
