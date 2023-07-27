@@ -6,7 +6,7 @@ const Nav = () => {
     <div className='nav'>
         <Link className='link' href='/about'>About</Link>
         <Link className='link' href='/projects'>Projects</Link>
-        {/* <Link href='/blog'>Blog</Link> */}
+        <Link className='link' href='/blog'>Blog</Link>
         <a className='link' download href={'Dan Raskin Resume.pdf'}> Resume </a>
     </div>
   )

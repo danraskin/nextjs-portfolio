@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 export default function DashRootLayout ({children}) {
   return (
       <div>
-          <Header home/>
+          <Header/>
           {children}
           <Footer />
       </div> 
