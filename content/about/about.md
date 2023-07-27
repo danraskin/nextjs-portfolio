@@ -9,7 +9,7 @@ I am Full-Stack Software Engineer with experience designing, building, and suppo
 ### Languages
 - <Image src="/images/svg/javascript.svg" width='25' height='25'/> Javascript
 - <Image src="/images/svg/python-icon.svg" width='25' height='25'/> Python
-- <Image src="/images/svg/bash-icon.svg" width='25' height='25'/> Bash
+<!-- - <Image src="/images/svg/bash-icon.svg" width='25' height='25'/> Bash -->
 
 ### Technologies and Frameworks
 - <Image src="/images/svg/nodejs-icon.svg" width='25' height='25'/> Node.js
@@ -18,9 +18,11 @@ I am Full-Stack Software Engineer with experience designing, building, and suppo
 - <Image src="/images/svg/mui-logo.png" width='25' height='25'/> Material UI
 - <Image src="/images/svg/oauth.svg" width='25' height='25'/> OAuth2.0
 - <Image src="/images/svg/nextjs.svg" width='25' height='25'/> Next.js
+- <Image src="/images/svg/axios.pong" width='25' height='25'/> Axios
 - <Image src="/images/svg/expressjs-icon.svg" width='25' height='25'/> Express.js
 - <Image src="/images/svg/heroku-icon.svg" width='25' height='25'/> Heroku
 - <Image src="/images/svg/git-scm-icon.svg" width='25' height='25'/> Git
+- <Image src="/images/svg/jquery-vertical.svg" width='25' height='25'/> JQuery
 
 ### Contact
 
