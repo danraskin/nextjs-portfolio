@@ -6,10 +6,17 @@ title: 'About Me'
 
 I am Full-Stack Software Engineer with experience designing, building, and supporting custom business applications. In addition to software product development, I am an enthusiastic team member, skilled project manager, strong communicator, and a creative problem-solver. I'm looking for great collaborators, interesting challenges, and projects with real impacts.
 
+<hr />
+
+This site was built using Next.js. Check out the project repo <a class='link' href='https://github.com/danraskin/nextjs-portfolio'>here</a>.
+
+<hr />
+
 ### Languages
 - <Image src="/images/svg/javascript.svg" width='25' height='25'/> Javascript
 - <Image src="/images/svg/python-icon.svg" width='25' height='25'/> Python
 - <Image src="/images/svg/bash-icon.svg" width='25' height='25'/> Bash
+<hr />
 
 ### Technologies and Frameworks
 
@@ -31,6 +38,7 @@ I am Full-Stack Software Engineer with experience designing, building, and suppo
 #### Cloud/Devops
 - <Image src="/images/svg/heroku-icon.svg" width='25' height='25'/> Heroku
 - <Image src="/images/svg/git-scm-icon.svg" width='25' height='25'/> Git
+<hr />
 
 ### Contact
 
