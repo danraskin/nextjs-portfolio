@@ -8,10 +8,6 @@ I am Full-Stack Software Engineer with experience designing, building, and suppo
 
 <hr />
 
-This site was built using Next.js. Check out the project repo <a class='link' href='https://github.com/danraskin/nextjs-portfolio'>here</a>.
-
-<hr />
-
 ### Languages
 - <Image src="/images/svg/javascript.svg" width='25' height='25'/> Javascript
 - <Image src="/images/svg/python-icon.svg" width='25' height='25'/> Python
@@ -38,6 +34,11 @@ This site was built using Next.js. Check out the project repo <a class='link' hr
 #### Cloud/Devops
 - <Image src="/images/svg/heroku-icon.svg" width='25' height='25'/> Heroku
 - <Image src="/images/svg/git-scm-icon.svg" width='25' height='25'/> Git
+
+<hr />
+
+This site was built using Next.js. Check out the project repo <a class='link' href='https://github.com/danraskin/nextjs-portfolio'>here</a>.
+
 <hr />
 
 ### Contact
