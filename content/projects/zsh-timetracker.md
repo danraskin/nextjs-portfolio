@@ -1,7 +1,7 @@
 ---
 title: 'Zsh-Timetracker'
 index: '4'
-image: '<Image src="/images/timetracker4.png" height="150"/>'
+image: '<Image src="/images/timetracker4.png" height="150" />'
 description: 'A simple command-line utility for tracking time spent on different projects. Provides basic reporting capabilities.'
 date: 'September, 2023'
 ---
