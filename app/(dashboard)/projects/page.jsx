@@ -3,7 +3,7 @@ import utilStyles from '@/styles/utils.module.css';
 import { getSortedProjectsData } from '@/lib/projects';
 
 export default async function Projects() {
-  const projects = await getSortedProjectsData();
+  const projects = await getSortedProjectsData('projects');
   // console.log('in Projects component', projects);
   return (
     <div className='flex-container'>
@@ -11,7 +11,7 @@ export default async function Projects() {
       <div>
         {projects.map(project => (
           <div key={project.index}>
-            <ProjectCard project={project}/>
+            <ProjectCard project={project} directory="projects"/>
           </div>
         ))}
 

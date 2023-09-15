@@ -1,6 +1,9 @@
 ---
 title: 'Learning and forgetting OAuth2.0'
 date: '2023-07-11'
+index: '1'
+image: '<Image src="/images/adminview4.png" height="150"/>'
+description: 'a blog post'
 ---
 
 I first encountered the need for authentication and authorization protocols while working on the second sprint of the Citizen Kanine project. My collaborator and I had been given the task of integrating the App prototype with our company's Quickbooks account through the QB API. 

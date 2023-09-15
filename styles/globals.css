@@ -27,6 +27,13 @@ body {
   text-decoration: none;
 }
 
+.code {
+  font-size: 0.9rem;
+  background-color:rgb(50, 50, 50);
+  padding:0 2rem;
+  max-width:600px;
+}
+
 .content {
   font-size:1.2rem;
   max-width:600px;
@@ -116,7 +123,12 @@ body {
     padding: 0 1rem; /* Reduce horizontal padding for mobile */
     max-width: 90%;
   }
-
+  .code {
+    font-size: 0.9rem;
+    background-color:rgb(50, 50, 50);
+    padding:0 1rem;
+    max-width:90%;
+  }
   .header,
   .footer {
     width: 100%; /* Make the header and footer span the entire width on mobile */

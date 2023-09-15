@@ -3,18 +3,17 @@ import utilStyles from '@/styles/utils.module.css';
 import { getSortedProjectsData } from '@/lib/projects';
 
 export default async function BlogPosts() {
-  const projects = await getSortedProjectsData();
+  const blogPosts = await getSortedProjectsData('blog');
   // console.log('in Projects component', projects);
   return (
     <div className='flex-container'>
       <h2 className={utilStyles.headingXl}>Blog Posts</h2>
       <div>
-        {/* {projects.map(project => (
-          <div key={project.index}>
-            <ProjectCard project={project}/>
+        {blogPosts.map(blog => (
+          <div key={blog.index}>
+            <ProjectCard project={blog} directory="blog"/>
           </div>
-        ))} */}
-      nothing to see here yet...
+        ))}
       </div>
     </div>
   );

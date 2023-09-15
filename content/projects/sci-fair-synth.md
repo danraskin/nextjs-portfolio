@@ -2,7 +2,7 @@
 title: 'Science Fair Synth'
 index: '2'
 image: '<Image src="/images/demopic2.png" height="150"/>'
-description: 'Users control a simple browser interface to convert RGB color data into soothing and beautiful electronic music.'
+description: 'RaspberryPi hardware-integrated React web app. Users control a simple browser interface to convert RGB color data into soothing and beautiful electronic music.'
 date: 'December, 2022'
 ---
 
