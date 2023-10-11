@@ -34,6 +34,7 @@ I am Full-Stack Software Engineer with experience designing, building, and suppo
 #### Cloud/Devops
 - <Image src="/images/svg/heroku-icon.svg" width='25' height='25'/> Heroku
 - <Image src="/images/svg/git-scm-icon.svg" width='25' height='25'/> Git
+- <Image src="/images/svg/docker.png" width='25' height='25'/> Docker
 
 <hr />
 
